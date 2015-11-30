@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url("webfonts/Roboto_Black_Italic/stylesheet.css");
+/* CSS Document */
+html{
+	height:100%;
+	}
+
+body{
+	width: 960px;
+	height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #161341;
+    background-repeat:no-repeat;
+	
+  background: -webkit-linear-gradient(#161341, #13413A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#161341, #13413A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#161341, #13413A); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient(#161341, #13413A); /* Standard syntax */
+  background: linear-gradient(#161341, #13413A); /* Standard syntax */
+}
+
+p, a, h1{
+	font-family:"Roboto Black Italic";
+	color:#BCB9C7;
+	font-size:24px;
+}
+
+h1{
+font-size:96px;
+}
+	
