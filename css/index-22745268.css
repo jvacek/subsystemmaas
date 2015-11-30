@@ -1,0 +1,136 @@
+/*
+
+*/
+
+.version.index /* version checker */
+{
+	color: #000001;
+	background-color: #5B10B4;
+}
+
+.html
+{
+	background: #000000 url("../images/moon_smaller.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 438px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u119-29
+{
+	z-index: 4;
+	width: 958px;
+	min-height: 202px;
+	background-color: transparent;
+	line-height: 36px;
+	text-align: center;
+	color: #422928;
+	font-size: 30px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 98px;
+	left: 1px;
+}
+
+#u119-5
+{
+	font-family: '__Roboto_5';
+	font-weight: 900;
+}
+
+#u119-8,#u119-11
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u119-6,#u119-9
+{
+	font-size: 48px;
+	font-family: '__Roboto_5';
+	font-weight: 900;
+	font-style: italic;
+	line-height: 58px;
+}
+
+#u119-13,#u119-16,#u119-19,#u119-22,#u119-25
+{
+	font-family: '__Roboto_5';
+	font-weight: 400;
+}
+
+#u119-2,#u119-3,#u119-27
+{
+	font-family: '__Roboto_5';
+	font-weight: 300;
+}
+
+#u106
+{
+	z-index: 2;
+	width: 392px;
+	top: 39px;
+	left: 50%;
+	margin-left: -196px;
+}
+
+@font-face
+{
+	font-family: '__Roboto_5';
+	src: url('../fonts/roboto-light-webfont.eot');
+	src: local('☺'), url('../fonts/roboto-light-webfont.woff') format('woff'), url('../fonts/roboto-light-webfont.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Roboto_5';
+	src: url('../fonts/roboto-black-webfont.eot');
+	src: local('☺'), url('../fonts/roboto-black-webfont.woff') format('woff'), url('../fonts/roboto-black-webfont.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Roboto_5';
+	src: url('../fonts/roboto-regular-webfont.eot');
+	src: local('☺'), url('../fonts/roboto-regular-webfont.woff') format('woff'), url('../fonts/roboto-regular-webfont.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Roboto_5';
+	src: url('../fonts/roboto-blackitalic-webfont.eot');
+	src: local('☺'), url('../fonts/roboto-blackitalic-webfont.woff') format('woff'), url('../fonts/roboto-blackitalic-webfont.svg') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
